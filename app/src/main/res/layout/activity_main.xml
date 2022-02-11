@@ -9,37 +9,37 @@
 
 
     <Button
-        android:id="@+id/firstButton"
+        android:id="@+id/first_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="First"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/secondButton"
+        app:layout_constraintEnd_toStartOf="@+id/second_button"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/secondButton"
+        android:id="@+id/second_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Second"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/thirdButton"
-        app:layout_constraintStart_toEndOf="@+id/firstButton" />
+        app:layout_constraintEnd_toStartOf="@+id/third_button"
+        app:layout_constraintStart_toEndOf="@+id/first_button" />
 
     <Button
-        android:id="@+id/thirdButton"
+        android:id="@+id/third_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Third"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/secondButton" />
+        app:layout_constraintStart_toEndOf="@+id/second_button" />
 
     <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/navHostFragment"
+        android:id="@+id/nav_host_fragment"
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -48,7 +48,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/secondButton"
+        app:layout_constraintBottom_toTopOf="@id/second_button"
         />
 
 

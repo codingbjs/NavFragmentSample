@@ -8,4 +8,8 @@
         android:id="@+id/firstFragment"
         android:name="com.codingbjs.navfragmentsample.uifragment.FirstFragment"
         android:label="FirstFragment" />
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.codingbjs.navfragmentsample.uifragment.SecondFragment"
+        android:label="SecondFragment" />
 </navigation>

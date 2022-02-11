@@ -41,5 +41,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        binding.thirdButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navController.navigate(R.id.thirdFragment);
+            }
+        });
+
     }
 }
